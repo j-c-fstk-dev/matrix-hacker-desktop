@@ -1,0 +1,133 @@
+╔═══════════════════════════════════════════════════════════╗
+║                                                           ║
+║   ███╗   ███╗ █████╗ ████████╗██████╗ ██╗██╗  ██╗       ║
+║   ████╗ ████║██╔══██╗╚══██╔══╝██╔══██╗██║╚██╗██╔╝       ║
+║   ██╔████╔██║███████║   ██║   ██████╔╝██║ ╚███╔╝        ║
+║   ██║╚██╔╝██║██╔══██║   ██║   ██╔══██╗██║ ██╔██╗        ║
+║   ██║ ╚═╝ ██║██║  ██║   ██║   ██║  ██║██║██╔╝ ██╗       ║
+║   ╚═╝     ╚═╝╚═╝  ╚═╝   ╚═╝   ╚═╝  ╚═╝╚═╝╚═╝  ╚═╝       ║
+║                                                           ║
+║            GUIA DE INSTALAÇÃO RÁPIDA                     ║
+║            Otimizado para Core 2 Duo+                    ║
+║                                                           ║
+╚═══════════════════════════════════════════════════════════╝
+
+┌───────────────────────────────────────────────────────────┐
+│ PASSO 1: EXECUTAR O INSTALADOR                           │
+└───────────────────────────────────────────────────────────┘
+
+  cd matrix-hacker-desktop
+  chmod +x install.sh
+  ./install.sh
+
+  → Escolha opção 1 (Instalação completa)
+  → Aguarde 5-10 minutos (depende da conexão)
+
+┌───────────────────────────────────────────────────────────┐
+│ PASSO 2: FAZER LOGOUT E SELECIONAR i3                    │
+└───────────────────────────────────────────────────────────┘
+
+  1. Faça logout (ou reinicie o PC)
+  2. Na tela de login, clique no ícone de engrenagem
+  3. Selecione "i3"
+  4. Faça login
+
+┌───────────────────────────────────────────────────────────┐
+│ PASSO 3: PRIMEIRA VEZ NO i3                              │
+└───────────────────────────────────────────────────────────┘
+
+  → i3 pergunta sobre criar config: aperte ENTER
+  → Super + Enter abre terminal
+  → Super + D abre menu de apps
+
+┌───────────────────────────────────────────────────────────┐
+│ ATALHOS MATRIX ESSENCIAIS                                │
+└───────────────────────────────────────────────────────────┘
+
+  Super + M           → Matrix Rain (cmatrix)
+  Super + Shift + H   → Monitor de Sistema (htop)
+  Super + N           → Info do Sistema (neofetch)
+  Super + T           → Dashboard Matrix Customizado
+  
+  Super + Enter       → Terminal
+  Super + D           → Menu de Apps
+  Super + Shift + Q   → Fechar Janela
+  Super + 1-9         → Mudar Workspace
+  
+  Super + H/J/K/L     → Navegar Janelas
+  Super + V           → Split Vertical
+  Super + B           → Split Horizontal
+  Super + F           → Fullscreen
+
+┌───────────────────────────────────────────────────────────┐
+│ RESOLUÇÃO DE PROBLEMAS                                   │
+└───────────────────────────────────────────────────────────┘
+
+  Problema: Polybar não aparece
+  Solução:  ~/.config/polybar/launch.sh
+
+  Problema: Dashboard dá erro
+  Solução:  pip3 install --user psutil pyfiglet termcolor
+
+  Problema: Muito lento no Core 2 Duo
+  Solução:  Edite ~/.config/i3/config
+            Comente a linha: exec_always picom
+
+┌───────────────────────────────────────────────────────────┐
+│ CUSTOMIZAÇÃO RÁPIDA                                      │
+└───────────────────────────────────────────────────────────┘
+
+  Mudar Cor do Tema:
+  → Edite: ~/.config/i3/config
+  → Procure por: set $text-color #00ff00
+  → Substitua #00ff00 por outra cor (ex: #ff0000 para vermelho)
+  → Super + Shift + R para recarregar
+
+  Adicionar Wallpaper:
+  → Coloque imagem em: ~/Pictures/wallpapers/
+  → Edite ~/.config/i3/config
+  → Adicione: exec_always feh --bg-fill ~/Pictures/wallpapers/SUA_IMAGEM.jpg
+
+  Configurar Tmux (Painéis):
+  → cp config/tmux.conf ~/.tmux.conf
+  → Abra terminal: tmux
+  → Ctrl+A + | = split vertical
+  → Ctrl+A + - = split horizontal
+
+┌───────────────────────────────────────────────────────────┐
+│ RECURSOS DO SISTEMA                                      │
+└───────────────────────────────────────────────────────────┘
+
+  i3wm:     ~5MB RAM    ✅ Ultra leve
+  Polybar:  ~20MB RAM   ✅ Leve
+  Picom:    ~50MB RAM   ⚠️ Moderado (pode desabilitar)
+  
+  TOTAL:    ~100MB RAM  ✓ Perfeito para Core 2 Duo!
+
+┌───────────────────────────────────────────────────────────┐
+│ ARQUIVOS IMPORTANTES                                     │
+└───────────────────────────────────────────────────────────┘
+
+  ~/.config/i3/config              → Configuração principal
+  ~/.config/polybar/config.ini     → Barra superior
+  ~/.config/rofi/matrix.rasi       → Menu de apps
+  ~/.local/share/matrix-desktop/   → Scripts customizados
+
+┌───────────────────────────────────────────────────────────┐
+│ PRÓXIMOS PASSOS                                          │
+└───────────────────────────────────────────────────────────┘
+
+  [ ] Explorar todos os atalhos
+  [ ] Customizar cores e wallpaper
+  [ ] Adicionar seus próprios scripts
+  [ ] Aprender mais sobre i3: https://i3wm.org/docs/
+  [ ] Compartilhar seu setup!
+
+═══════════════════════════════════════════════════════════
+
+     Bem-vindo ao Matrix, Neo... 
+     
+     "Unfortunately, no one can be told what the Matrix is.
+      You have to see it for yourself."
+
+═══════════════════════════════════════════════════════════

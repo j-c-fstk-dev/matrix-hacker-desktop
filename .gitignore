@@ -1,0 +1,9 @@
+# Arquivos temporários
+*.tar.gz
+*.zip
+*.log
+*~
+.DS_Store
+
+# Diretórios de backup
+*.backup_*

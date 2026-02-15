@@ -1,0 +1,216 @@
+# i3 config - Matrix Hacker Desktop
+# Otimizado para hardware antigo (Core 2 Duo+)
+
+set $mod Mod4
+
+# Font para títulos de janelas (leve)
+font pango:monospace 8
+
+# Usar Mouse+$mod para arrastar janelas flutuantes
+floating_modifier $mod
+
+# Iniciar terminal
+bindsym $mod+Return exec i3-sensible-terminal
+
+# Matar janela focada
+bindsym $mod+Shift+q kill
+
+# Iniciar rofi (launcher de aplicativos)
+bindsym $mod+d exec --no-startup-id rofi -show drun -theme ~/.config/rofi/matrix.rasi
+
+# Mudar foco
+bindsym $mod+h focus left
+bindsym $mod+j focus down
+bindsym $mod+k focus up
+bindsym $mod+l focus right
+
+# Alternativamente, usar as setas
+bindsym $mod+Left focus left
+bindsym $mod+Down focus down
+bindsym $mod+Up focus up
+bindsym $mod+Right focus right
+
+# Mover janela focada
+bindsym $mod+Shift+h move left
+bindsym $mod+Shift+j move down
+bindsym $mod+Shift+k move up
+bindsym $mod+Shift+l move right
+
+# Alternativamente, usar as setas
+bindsym $mod+Shift+Left move left
+bindsym $mod+Shift+Down move down
+bindsym $mod+Shift+Up move up
+bindsym $mod+Shift+Right move right
+
+# Split horizontal
+bindsym $mod+b split h
+
+# Split vertical
+bindsym $mod+v split v
+
+# Fullscreen para janela focada
+bindsym $mod+f fullscreen toggle
+
+# Mudar layout de container
+bindsym $mod+s layout stacking
+bindsym $mod+w layout tabbed
+bindsym $mod+e layout toggle split
+
+# Toggle tiling / floating
+bindsym $mod+Shift+space floating toggle
+
+# Mudar foco entre tiling / floating
+bindsym $mod+space focus mode_toggle
+
+# Focar no parent container
+bindsym $mod+a focus parent
+
+# Definir nomes para workspaces
+set $ws1 "1:TERM"
+set $ws2 "2:CODE"
+set $ws3 "3:WEB"
+set $ws4 "4:FILES"
+set $ws5 "5:TOOLS"
+set $ws6 "6:MEDIA"
+set $ws7 "7"
+set $ws8 "8"
+set $ws9 "9"
+set $ws10 "10:MATRIX"
+
+# Mudar para workspace
+bindsym $mod+1 workspace $ws1
+bindsym $mod+2 workspace $ws2
+bindsym $mod+3 workspace $ws3
+bindsym $mod+4 workspace $ws4
+bindsym $mod+5 workspace $ws5
+bindsym $mod+6 workspace $ws6
+bindsym $mod+7 workspace $ws7
+bindsym $mod+8 workspace $ws8
+bindsym $mod+9 workspace $ws9
+bindsym $mod+0 workspace $ws10
+
+# Mover janela focada para workspace
+bindsym $mod+Shift+1 move container to workspace $ws1
+bindsym $mod+Shift+2 move container to workspace $ws2
+bindsym $mod+Shift+3 move container to workspace $ws3
+bindsym $mod+Shift+4 move container to workspace $ws4
+bindsym $mod+Shift+5 move container to workspace $ws5
+bindsym $mod+Shift+6 move container to workspace $ws6
+bindsym $mod+Shift+7 move container to workspace $ws7
+bindsym $mod+Shift+8 move container to workspace $ws8
+bindsym $mod+Shift+9 move container to workspace $ws9
+bindsym $mod+Shift+0 move container to workspace $ws10
+
+# Recarregar configuração
+bindsym $mod+Shift+c reload
+
+# Reiniciar i3 (preserva sessão/layout)
+bindsym $mod+Shift+r restart
+
+# Sair do i3
+bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'Deseja sair do i3?' -B 'Sim, sair' 'i3-msg exit'"
+
+# Resize mode
+mode "resize" {
+        bindsym h resize shrink width 10 px or 10 ppt
+        bindsym j resize grow height 10 px or 10 ppt
+        bindsym k resize shrink height 10 px or 10 ppt
+        bindsym l resize grow width 10 px or 10 ppt
+
+        bindsym Left resize shrink width 10 px or 10 ppt
+        bindsym Down resize grow height 10 px or 10 ppt
+        bindsym Up resize shrink height 10 px or 10 ppt
+        bindsym Right resize grow width 10 px or 10 ppt
+
+        bindsym Return mode "default"
+        bindsym Escape mode "default"
+        bindsym $mod+r mode "default"
+}
+
+bindsym $mod+r mode "resize"
+
+# ═══════════════════════════════════════════════════════════
+# TEMA MATRIX - CORES
+# ═══════════════════════════════════════════════════════════
+
+# Cores Matrix (Verde neon sobre preto)
+set $bg-color            #000000
+set $inactive-bg-color   #0a0a0a
+set $text-color          #00ff00
+set $inactive-text-color #008000
+set $urgent-bg-color     #00ff00
+set $indicator-color     #00ff00
+
+# Esquema de cores das janelas
+#                       border             background         text                 indicator
+client.focused          $text-color        $bg-color          $text-color          $indicator-color
+client.unfocused        $inactive-bg-color $inactive-bg-color $inactive-text-color $indicator-color
+client.focused_inactive $inactive-bg-color $inactive-bg-color $inactive-text-color $indicator-color
+client.urgent           $urgent-bg-color   $urgent-bg-color   $bg-color            $indicator-color
+
+# ═══════════════════════════════════════════════════════════
+# ATALHOS MATRIX ESPECIAIS
+# ═══════════════════════════════════════════════════════════
+
+# Matrix Rain (cmatrix)
+bindsym $mod+m exec --no-startup-id i3-sensible-terminal -e cmatrix -abs -C green
+
+# Monitor de Sistema (htop)
+bindsym $mod+Shift+h exec --no-startup-id i3-sensible-terminal -e htop
+
+# Neofetch (info do sistema)
+bindsym $mod+n exec --no-startup-id i3-sensible-terminal -e neofetch
+
+# Dashboard Matrix personalizado
+bindsym $mod+t exec --no-startup-id i3-sensible-terminal -e python3 ~/.local/share/matrix-desktop/scripts/matrix_dashboard.py
+
+# Screenshot
+bindsym Print exec --no-startup-id scrot ~/Pictures/screenshot_%Y%m%d_%H%M%S.png
+
+# Lock screen
+bindsym $mod+x exec --no-startup-id i3lock -c 000000
+
+# ═══════════════════════════════════════════════════════════
+# AUTOSTART
+# ═══════════════════════════════════════════════════════════
+
+# Compositor (transparências e efeitos - LEVE)
+exec_always --no-startup-id picom --config ~/.config/picom/picom.conf
+
+# Wallpaper Matrix
+exec_always --no-startup-id feh --bg-fill ~/Pictures/wallpapers/matrix_wallpaper.jpg
+
+# Polybar (barra superior)
+exec_always --no-startup-id ~/.config/polybar/launch.sh
+
+# Desabilitar mouse acceleration (opcional)
+# exec_always --no-startup-id xset m 0 0
+
+# Configurar teclado (opcional - ajuste para seu layout)
+# exec_always --no-startup-id setxkbmap -model pc104 -layout us,br -variant ,abnt2 -option grp:alt_shift_toggle
+
+# ═══════════════════════════════════════════════════════════
+# CONFIGURAÇÕES DE APARÊNCIA
+# ═══════════════════════════════════════════════════════════
+
+# Remover bordas de janelas únicas
+hide_edge_borders both
+
+# Borda fina (economiza pixels)
+for_window [class=".*"] border pixel 2
+
+# Gaps (espaçamento entre janelas) - Comentado para economizar recursos
+# gaps inner 5
+# gaps outer 2
+
+# ═══════════════════════════════════════════════════════════
+# REGRAS ESPECÍFICAS DE APLICATIVOS
+# ═══════════════════════════════════════════════════════════
+
+# Janelas flutuantes para certos apps
+for_window [class="Pavucontrol"] floating enable
+for_window [class="Arandr"] floating enable
+for_window [title="alsamixer"] floating enable
+
+# Forçar apps no workspace Matrix (10)
+assign [class="cmatrix"] $ws10
