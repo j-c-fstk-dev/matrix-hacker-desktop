@@ -1,21 +1,11 @@
 # 🟢 Matrix Hacker Desktop
-
 ```
-
-![Platform](https://img.shields.io/badge/platform-Linux-blue)
-![Shell](https://img.shields.io/badge/shell-bash-green)
-![Python](https://img.shields.io/badge/python-3.x-blue)
-
-![Platform](https://img.shields.io/badge/platform-Linux-blue)
-![Shell](https://img.shields.io/badge/shell-bash-green)
-![Python](https://img.shields.io/badge/python-3.x-blue)
-![License](https://img.shields.io/badge/license-MIT-green)
-![Optimized](https://img.shields.io/badge/optimized-Core%202%20Duo+-brightgreen)
-
-![License](https://img.shields.io/badge/license-MIT-green)
-![Optimized](https://img.shields.io/badge/optimized-Core%202%20Duo+-brightgreen)
-
-
+   ███╗   ███╗ █████╗ ████████╗██████╗ ██╗██╗  ██╗
+   ████╗ ████║██╔══██╗╚══██╔══╝██╔══██╗██║╚██╗██╔╝
+   ██╔████╔██║███████║   ██║   ██████╔╝██║ ╚███╔╝
+   ██║╚██╔╝██║██╔══██║   ██║   ██╔══██╗██║ ██╔██╗
+   ██║ ╚═╝ ██║██║  ██║   ██║   ██║  ██║██║██╔╝ ██╗
+   ╚═╝     ╚═╝╚═╝  ╚═╝   ╚═╝   ╚═╝  ╚═╝╚═╝╚═╝  ╚═╝
 ```
 
 ![Platform](https://img.shields.io/badge/platform-Linux-blue)
@@ -23,14 +13,6 @@
 ![Python](https://img.shields.io/badge/python-3.x-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
 ![Optimized](https://img.shields.io/badge/optimized-Core%202%20Duo+-brightgreen)
-
-
-![Platform](https://img.shields.io/badge/platform-Linux-blue)
-![Shell](https://img.shields.io/badge/shell-bash-green)
-![Python](https://img.shields.io/badge/python-3.x-blue)
-![License](https://img.shields.io/badge/license-MIT-green)
-![Optimized](https://img.shields.io/badge/optimized-Core%202%20Duo+-brightgreen)
-
 
 Transforme seu desktop Linux em uma **estação hacker Matrix**, otimizado para rodar até em um **Core 2 Duo**!
 
@@ -55,35 +37,17 @@ Este é um setup completo de desktop Linux com:
 ## 🚀 Instalação Rápida
 
 ### 1. Baixar o Projeto
-
 ```bash
-# Clonar ou baixar este repositório
-cd ~/Downloads
-# (cole os arquivos aqui)
+# Clonar repositório
+git clone https://github.com/SEU_USUARIO/matrix-hacker-desktop.git
+cd matrix-hacker-desktop
 ```
 
-![Platform](https://img.shields.io/badge/platform-Linux-blue)
-![Shell](https://img.shields.io/badge/shell-bash-green)
-![Python](https://img.shields.io/badge/python-3.x-blue)
-![License](https://img.shields.io/badge/license-MIT-green)
-![Optimized](https://img.shields.io/badge/optimized-Core%202%20Duo+-brightgreen)
-
-
+### 2. Executar o Instalador
+```bash
+chmod +x install.sh
+./install.sh
 ```
-
-![Platform](https://img.shields.io/badge/platform-Linux-blue)
-![Shell](https://img.shields.io/badge/shell-bash-green)
-![Python](https://img.shields.io/badge/python-3.x-blue)
-![License](https://img.shields.io/badge/license-MIT-green)
-![Optimized](https://img.shields.io/badge/optimized-Core%202%20Duo+-brightgreen)
-
-
-![Platform](https://img.shields.io/badge/platform-Linux-blue)
-![Shell](https://img.shields.io/badge/shell-bash-green)
-![Python](https://img.shields.io/badge/python-3.x-blue)
-![License](https://img.shields.io/badge/license-MIT-green)
-![Optimized](https://img.shields.io/badge/optimized-Core%202%20Duo+-brightgreen)
-
 
 O instalador irá:
 1. Detectar automaticamente sua distribuição Linux
@@ -108,6 +72,8 @@ O instalador irá:
 - `Super + Shift + E` - Sair do i3
 - `Super + Shift + R` - Reiniciar i3
 
+> **Nota**: `Super` = Tecla Windows (⊞)
+
 ### Navegação
 - `Super + H/J/K/L` ou `Setas` - Navegar entre janelas
 - `Super + 1-9` - Mudar para workspace
@@ -126,161 +92,113 @@ O instalador irá:
 - `Super + R` - Modo resize (depois use H/J/K/L para redimensionar)
 
 ## 📁 Estrutura do Projeto
-
 ```
-
-![Platform](https://img.shields.io/badge/platform-Linux-blue)
-![Shell](https://img.shields.io/badge/shell-bash-green)
-![Python](https://img.shields.io/badge/python-3.x-blue)
-![License](https://img.shields.io/badge/license-MIT-green)
-![Optimized](https://img.shields.io/badge/optimized-Core%202%20Duo+-brightgreen)
-
-
+matrix-hacker-desktop/
+├── install.sh              # Instalador automático
+├── config/                 # Configurações
+│   ├── i3/                 # i3 window manager
+│   │   └── config
+│   ├── polybar/            # Barra superior
+│   │   ├── config.ini
+│   │   └── launch.sh
+│   ├── rofi/               # Launcher
+│   │   └── matrix.rasi
+│   ├── picom/              # Compositor (transparências)
+│   │   └── picom.conf
+│   └── tmux.conf           # Terminal multiplexer
+├── scripts/                # Scripts customizados
+│   ├── matrix_dashboard.py # Dashboard em Python
+│   └── matrix_wallpaper.sh # Wallpaper animado
+└── README.md               # Este arquivo
 ```
-
-![Platform](https://img.shields.io/badge/platform-Linux-blue)
-![Shell](https://img.shields.io/badge/shell-bash-green)
-![Python](https://img.shields.io/badge/python-3.x-blue)
-![License](https://img.shields.io/badge/license-MIT-green)
-![Optimized](https://img.shields.io/badge/optimized-Core%202%20Duo+-brightgreen)
-
-
-![Platform](https://img.shields.io/badge/platform-Linux-blue)
-![Shell](https://img.shields.io/badge/shell-bash-green)
-![Python](https://img.shields.io/badge/python-3.x-blue)
-![License](https://img.shields.io/badge/license-MIT-green)
-![Optimized](https://img.shields.io/badge/optimized-Core%202%20Duo+-brightgreen)
-
 
 ## 🎨 Customização
 
 ### Mudar Cores
 
 Edite `~/.config/i3/config`:
-
 ```bash
 # Trocar verde (#00ff00) por outra cor
 set $text-color #00ff00  # Mude para #ff0000 (vermelho), #0000ff (azul), etc.
 ```
 
-![Platform](https://img.shields.io/badge/platform-Linux-blue)
-![Shell](https://img.shields.io/badge/shell-bash-green)
-![Python](https://img.shields.io/badge/python-3.x-blue)
-![License](https://img.shields.io/badge/license-MIT-green)
-![Optimized](https://img.shields.io/badge/optimized-Core%202%20Duo+-brightgreen)
+### Adicionar Mais Efeitos
 
+O i3 é totalmente customizável! Alguns exemplos:
+```bash
+# No arquivo ~/.config/i3/config, adicione:
 
+# Abrir browser
+bindsym $mod+b exec firefox
+
+# Screenshot
+bindsym Print exec scrot ~/Pictures/screenshot_%Y%m%d_%H%M%S.png
+
+# Controle de volume
+bindsym XF86AudioRaiseVolume exec amixer -q set Master 5%+
+bindsym XF86AudioLowerVolume exec amixer -q set Master 5%-
 ```
-
-![Platform](https://img.shields.io/badge/platform-Linux-blue)
-![Shell](https://img.shields.io/badge/shell-bash-green)
-![Python](https://img.shields.io/badge/python-3.x-blue)
-![License](https://img.shields.io/badge/license-MIT-green)
-![Optimized](https://img.shields.io/badge/optimized-Core%202%20Duo+-brightgreen)
-
-
-![Platform](https://img.shields.io/badge/platform-Linux-blue)
-![Shell](https://img.shields.io/badge/shell-bash-green)
-![Python](https://img.shields.io/badge/python-3.x-blue)
-![License](https://img.shields.io/badge/license-MIT-green)
-![Optimized](https://img.shields.io/badge/optimized-Core%202%20Duo+-brightgreen)
-
 
 ### Configurar Tmux (Painéis)
 
 Copie a configuração do tmux:
-
 ```bash
 cp config/tmux.conf ~/.tmux.conf
 tmux source-file ~/.tmux.conf
 ```
 
-![Platform](https://img.shields.io/badge/platform-Linux-blue)
-![Shell](https://img.shields.io/badge/shell-bash-green)
-![Python](https://img.shields.io/badge/python-3.x-blue)
-![License](https://img.shields.io/badge/license-MIT-green)
-![Optimized](https://img.shields.io/badge/optimized-Core%202%20Duo+-brightgreen)
+**Atalhos do Tmux**:
+- `Ctrl+A` + `|` - Split vertical
+- `Ctrl+A` + `-` - Split horizontal
+- `Alt+H/J/K/L` - Navegar entre painéis (sem prefix!)
+- `Ctrl+A` + `D` - Detach da sessão
 
-
+### Adicionar Wallpaper Matrix Animado
+```bash
+# Edite ~/.config/i3/config e adicione no final:
+exec_always --no-startup-id ~/.local/share/matrix-desktop/scripts/matrix_wallpaper.sh
 ```
-
-![Platform](https://img.shields.io/badge/platform-Linux-blue)
-![Shell](https://img.shields.io/badge/shell-bash-green)
-![Python](https://img.shields.io/badge/python-3.x-blue)
-![License](https://img.shields.io/badge/license-MIT-green)
-![Optimized](https://img.shields.io/badge/optimized-Core%202%20Duo+-brightgreen)
-
-
-![Platform](https://img.shields.io/badge/platform-Linux-blue)
-![Shell](https://img.shields.io/badge/shell-bash-green)
-![Python](https://img.shields.io/badge/python-3.x-blue)
-![License](https://img.shields.io/badge/license-MIT-green)
-![Optimized](https://img.shields.io/badge/optimized-Core%202%20Duo+-brightgreen)
-
 
 **Nota**: Isso pode consumir mais recursos em PCs muito antigos!
 
 ## 🔧 Resolução de Problemas
 
 ### Polybar não aparece
-
 ```bash
 # Reinicie o Polybar manualmente
 ~/.config/polybar/launch.sh
 ```
 
-![Platform](https://img.shields.io/badge/platform-Linux-blue)
-![Shell](https://img.shields.io/badge/shell-bash-green)
-![Python](https://img.shields.io/badge/python-3.x-blue)
-![License](https://img.shields.io/badge/license-MIT-green)
-![Optimized](https://img.shields.io/badge/optimized-Core%202%20Duo+-brightgreen)
+### Tela preta após login
 
-
+1. Verifique se o i3 foi selecionado na tela de login
+2. Tente pressionar `Super + Enter` para abrir um terminal
+3. Se nada funcionar, faça Ctrl+Alt+F2, faça login no TTY e execute:
+```bash
+   cat ~/.xsession-errors  # Ver erros
 ```
 
-![Platform](https://img.shields.io/badge/platform-Linux-blue)
-![Shell](https://img.shields.io/badge/shell-bash-green)
-![Python](https://img.shields.io/badge/python-3.x-blue)
-![License](https://img.shields.io/badge/license-MIT-green)
-![Optimized](https://img.shields.io/badge/optimized-Core%202%20Duo+-brightgreen)
-
-
-![Platform](https://img.shields.io/badge/platform-Linux-blue)
-![Shell](https://img.shields.io/badge/shell-bash-green)
-![Python](https://img.shields.io/badge/python-3.x-blue)
-![License](https://img.shields.io/badge/license-MIT-green)
-![Optimized](https://img.shields.io/badge/optimized-Core%202%20Duo+-brightgreen)
-
+### Python não encontrado
+```bash
+# Instalar Python 3
+sudo apt install python3 python3-pip  # Debian/Ubuntu/Kali
+sudo pacman -S python python-pip      # Arch
+sudo dnf install python3 python3-pip  # Fedora
+```
 
 ### Dashboard dá erro
-
 ```bash
 # Instalar dependências Python
 pip3 install --user psutil pyfiglet termcolor
 ```
 
-![Platform](https://img.shields.io/badge/platform-Linux-blue)
-![Shell](https://img.shields.io/badge/shell-bash-green)
-![Python](https://img.shields.io/badge/python-3.x-blue)
-![License](https://img.shields.io/badge/license-MIT-green)
-![Optimized](https://img.shields.io/badge/optimized-Core%202%20Duo+-brightgreen)
+### Muito lento no Core 2 Duo
 
-
+Abra `~/.config/picom/picom.conf` e desabilite completamente o compositor:
+```bash
+# Comentar a linha exec_always no i3 config:
+# exec_always --no-startup-id picom ...
 ```
-
-![Platform](https://img.shields.io/badge/platform-Linux-blue)
-![Shell](https://img.shields.io/badge/shell-bash-green)
-![Python](https://img.shields.io/badge/python-3.x-blue)
-![License](https://img.shields.io/badge/license-MIT-green)
-![Optimized](https://img.shields.io/badge/optimized-Core%202%20Duo+-brightgreen)
-
-
-![Platform](https://img.shields.io/badge/platform-Linux-blue)
-![Shell](https://img.shields.io/badge/shell-bash-green)
-![Python](https://img.shields.io/badge/python-3.x-blue)
-![License](https://img.shields.io/badge/license-MIT-green)
-![Optimized](https://img.shields.io/badge/optimized-Core%202%20Duo+-brightgreen)
-
 
 ## 📦 Componentes Incluídos
 
@@ -306,7 +224,9 @@ Depois de instalar, você pode:
 
 ## 🤝 Contribuindo
 
-Melhorias são bem-vindas! Algumas ideias:
+Melhorias são bem-vindas! Veja [CONTRIBUTING.md](CONTRIBUTING.md) para mais detalhes.
+
+Algumas ideias:
 
 - [ ] Adicionar mais temas de cores
 - [ ] Criar instalador para outras distros (Gentoo, NixOS)
@@ -316,7 +236,7 @@ Melhorias são bem-vindas! Algumas ideias:
 
 ## 📜 Licença
 
-Este projeto é livre para uso pessoal e educacional.
+Este projeto está sob a licença MIT. Veja [LICENSE](LICENSE) para mais informações.
 
 ## ⚠️ Aviso
 
@@ -325,14 +245,6 @@ Este é um setup **estético e funcional**, não um sistema de segurança real. 
 ---
 
 **Aproveite sua nova estação Matrix!** 🟢
-
 ```
-
-![Platform](https://img.shields.io/badge/platform-Linux-blue)
-![Shell](https://img.shields.io/badge/shell-bash-green)
-![Python](https://img.shields.io/badge/python-3.x-blue)
-![License](https://img.shields.io/badge/license-MIT-green)
-![Optimized](https://img.shields.io/badge/optimized-Core%202%20Duo+-brightgreen)
-
-
+Welcome to the Matrix, Neo...
 ```
