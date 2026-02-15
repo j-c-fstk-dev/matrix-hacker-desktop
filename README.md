@@ -9,10 +9,10 @@
 ![Platform](https://img.shields.io/badge/platform-Linux-blue)
 ![Shell](https://img.shields.io/badge/shell-bash-green)
 ![Python](https://img.shields.io/badge/python-3.x-blue)
-![License](https://img.shields.io/badge/license-Free-green)
+![License](https://img.shields.io/badge/license-MIT-green)
 ![Optimized](https://img.shields.io/badge/optimized-Core%202%20Duo+-brightgreen)
 
-![License](https://img.shields.io/badge/license-Free-green)
+![License](https://img.shields.io/badge/license-MIT-green)
 ![Optimized](https://img.shields.io/badge/optimized-Core%202%20Duo+-brightgreen)
 
 
@@ -21,14 +21,14 @@
 ![Platform](https://img.shields.io/badge/platform-Linux-blue)
 ![Shell](https://img.shields.io/badge/shell-bash-green)
 ![Python](https://img.shields.io/badge/python-3.x-blue)
-![License](https://img.shields.io/badge/license-Free-green)
+![License](https://img.shields.io/badge/license-MIT-green)
 ![Optimized](https://img.shields.io/badge/optimized-Core%202%20Duo+-brightgreen)
 
 
 ![Platform](https://img.shields.io/badge/platform-Linux-blue)
 ![Shell](https://img.shields.io/badge/shell-bash-green)
 ![Python](https://img.shields.io/badge/python-3.x-blue)
-![License](https://img.shields.io/badge/license-Free-green)
+![License](https://img.shields.io/badge/license-MIT-green)
 ![Optimized](https://img.shields.io/badge/optimized-Core%202%20Duo+-brightgreen)
 
 
@@ -65,7 +65,7 @@ cd ~/Downloads
 ![Platform](https://img.shields.io/badge/platform-Linux-blue)
 ![Shell](https://img.shields.io/badge/shell-bash-green)
 ![Python](https://img.shields.io/badge/python-3.x-blue)
-![License](https://img.shields.io/badge/license-Free-green)
+![License](https://img.shields.io/badge/license-MIT-green)
 ![Optimized](https://img.shields.io/badge/optimized-Core%202%20Duo+-brightgreen)
 
 
@@ -74,14 +74,14 @@ cd ~/Downloads
 ![Platform](https://img.shields.io/badge/platform-Linux-blue)
 ![Shell](https://img.shields.io/badge/shell-bash-green)
 ![Python](https://img.shields.io/badge/python-3.x-blue)
-![License](https://img.shields.io/badge/license-Free-green)
+![License](https://img.shields.io/badge/license-MIT-green)
 ![Optimized](https://img.shields.io/badge/optimized-Core%202%20Duo+-brightgreen)
 
 
 ![Platform](https://img.shields.io/badge/platform-Linux-blue)
 ![Shell](https://img.shields.io/badge/shell-bash-green)
 ![Python](https://img.shields.io/badge/python-3.x-blue)
-![License](https://img.shields.io/badge/license-Free-green)
+![License](https://img.shields.io/badge/license-MIT-green)
 ![Optimized](https://img.shields.io/badge/optimized-Core%202%20Duo+-brightgreen)
 
 
@@ -132,7 +132,7 @@ O instalador irá:
 ![Platform](https://img.shields.io/badge/platform-Linux-blue)
 ![Shell](https://img.shields.io/badge/shell-bash-green)
 ![Python](https://img.shields.io/badge/python-3.x-blue)
-![License](https://img.shields.io/badge/license-Free-green)
+![License](https://img.shields.io/badge/license-MIT-green)
 ![Optimized](https://img.shields.io/badge/optimized-Core%202%20Duo+-brightgreen)
 
 
@@ -141,14 +141,14 @@ O instalador irá:
 ![Platform](https://img.shields.io/badge/platform-Linux-blue)
 ![Shell](https://img.shields.io/badge/shell-bash-green)
 ![Python](https://img.shields.io/badge/python-3.x-blue)
-![License](https://img.shields.io/badge/license-Free-green)
+![License](https://img.shields.io/badge/license-MIT-green)
 ![Optimized](https://img.shields.io/badge/optimized-Core%202%20Duo+-brightgreen)
 
 
 ![Platform](https://img.shields.io/badge/platform-Linux-blue)
 ![Shell](https://img.shields.io/badge/shell-bash-green)
 ![Python](https://img.shields.io/badge/python-3.x-blue)
-![License](https://img.shields.io/badge/license-Free-green)
+![License](https://img.shields.io/badge/license-MIT-green)
 ![Optimized](https://img.shields.io/badge/optimized-Core%202%20Duo+-brightgreen)
 
 
@@ -166,7 +166,7 @@ set $text-color #00ff00  # Mude para #ff0000 (vermelho), #0000ff (azul), etc.
 ![Platform](https://img.shields.io/badge/platform-Linux-blue)
 ![Shell](https://img.shields.io/badge/shell-bash-green)
 ![Python](https://img.shields.io/badge/python-3.x-blue)
-![License](https://img.shields.io/badge/license-Free-green)
+![License](https://img.shields.io/badge/license-MIT-green)
 ![Optimized](https://img.shields.io/badge/optimized-Core%202%20Duo+-brightgreen)
 
 
@@ -175,14 +175,14 @@ set $text-color #00ff00  # Mude para #ff0000 (vermelho), #0000ff (azul), etc.
 ![Platform](https://img.shields.io/badge/platform-Linux-blue)
 ![Shell](https://img.shields.io/badge/shell-bash-green)
 ![Python](https://img.shields.io/badge/python-3.x-blue)
-![License](https://img.shields.io/badge/license-Free-green)
+![License](https://img.shields.io/badge/license-MIT-green)
 ![Optimized](https://img.shields.io/badge/optimized-Core%202%20Duo+-brightgreen)
 
 
 ![Platform](https://img.shields.io/badge/platform-Linux-blue)
 ![Shell](https://img.shields.io/badge/shell-bash-green)
 ![Python](https://img.shields.io/badge/python-3.x-blue)
-![License](https://img.shields.io/badge/license-Free-green)
+![License](https://img.shields.io/badge/license-MIT-green)
 ![Optimized](https://img.shields.io/badge/optimized-Core%202%20Duo+-brightgreen)
 
 
@@ -198,7 +198,7 @@ tmux source-file ~/.tmux.conf
 ![Platform](https://img.shields.io/badge/platform-Linux-blue)
 ![Shell](https://img.shields.io/badge/shell-bash-green)
 ![Python](https://img.shields.io/badge/python-3.x-blue)
-![License](https://img.shields.io/badge/license-Free-green)
+![License](https://img.shields.io/badge/license-MIT-green)
 ![Optimized](https://img.shields.io/badge/optimized-Core%202%20Duo+-brightgreen)
 
 
@@ -207,14 +207,14 @@ tmux source-file ~/.tmux.conf
 ![Platform](https://img.shields.io/badge/platform-Linux-blue)
 ![Shell](https://img.shields.io/badge/shell-bash-green)
 ![Python](https://img.shields.io/badge/python-3.x-blue)
-![License](https://img.shields.io/badge/license-Free-green)
+![License](https://img.shields.io/badge/license-MIT-green)
 ![Optimized](https://img.shields.io/badge/optimized-Core%202%20Duo+-brightgreen)
 
 
 ![Platform](https://img.shields.io/badge/platform-Linux-blue)
 ![Shell](https://img.shields.io/badge/shell-bash-green)
 ![Python](https://img.shields.io/badge/python-3.x-blue)
-![License](https://img.shields.io/badge/license-Free-green)
+![License](https://img.shields.io/badge/license-MIT-green)
 ![Optimized](https://img.shields.io/badge/optimized-Core%202%20Duo+-brightgreen)
 
 
@@ -232,7 +232,7 @@ tmux source-file ~/.tmux.conf
 ![Platform](https://img.shields.io/badge/platform-Linux-blue)
 ![Shell](https://img.shields.io/badge/shell-bash-green)
 ![Python](https://img.shields.io/badge/python-3.x-blue)
-![License](https://img.shields.io/badge/license-Free-green)
+![License](https://img.shields.io/badge/license-MIT-green)
 ![Optimized](https://img.shields.io/badge/optimized-Core%202%20Duo+-brightgreen)
 
 
@@ -241,14 +241,14 @@ tmux source-file ~/.tmux.conf
 ![Platform](https://img.shields.io/badge/platform-Linux-blue)
 ![Shell](https://img.shields.io/badge/shell-bash-green)
 ![Python](https://img.shields.io/badge/python-3.x-blue)
-![License](https://img.shields.io/badge/license-Free-green)
+![License](https://img.shields.io/badge/license-MIT-green)
 ![Optimized](https://img.shields.io/badge/optimized-Core%202%20Duo+-brightgreen)
 
 
 ![Platform](https://img.shields.io/badge/platform-Linux-blue)
 ![Shell](https://img.shields.io/badge/shell-bash-green)
 ![Python](https://img.shields.io/badge/python-3.x-blue)
-![License](https://img.shields.io/badge/license-Free-green)
+![License](https://img.shields.io/badge/license-MIT-green)
 ![Optimized](https://img.shields.io/badge/optimized-Core%202%20Duo+-brightgreen)
 
 
@@ -262,7 +262,7 @@ pip3 install --user psutil pyfiglet termcolor
 ![Platform](https://img.shields.io/badge/platform-Linux-blue)
 ![Shell](https://img.shields.io/badge/shell-bash-green)
 ![Python](https://img.shields.io/badge/python-3.x-blue)
-![License](https://img.shields.io/badge/license-Free-green)
+![License](https://img.shields.io/badge/license-MIT-green)
 ![Optimized](https://img.shields.io/badge/optimized-Core%202%20Duo+-brightgreen)
 
 
@@ -271,14 +271,14 @@ pip3 install --user psutil pyfiglet termcolor
 ![Platform](https://img.shields.io/badge/platform-Linux-blue)
 ![Shell](https://img.shields.io/badge/shell-bash-green)
 ![Python](https://img.shields.io/badge/python-3.x-blue)
-![License](https://img.shields.io/badge/license-Free-green)
+![License](https://img.shields.io/badge/license-MIT-green)
 ![Optimized](https://img.shields.io/badge/optimized-Core%202%20Duo+-brightgreen)
 
 
 ![Platform](https://img.shields.io/badge/platform-Linux-blue)
 ![Shell](https://img.shields.io/badge/shell-bash-green)
 ![Python](https://img.shields.io/badge/python-3.x-blue)
-![License](https://img.shields.io/badge/license-Free-green)
+![License](https://img.shields.io/badge/license-MIT-green)
 ![Optimized](https://img.shields.io/badge/optimized-Core%202%20Duo+-brightgreen)
 
 
@@ -331,7 +331,7 @@ Este é um setup **estético e funcional**, não um sistema de segurança real. 
 ![Platform](https://img.shields.io/badge/platform-Linux-blue)
 ![Shell](https://img.shields.io/badge/shell-bash-green)
 ![Python](https://img.shields.io/badge/python-3.x-blue)
-![License](https://img.shields.io/badge/license-Free-green)
+![License](https://img.shields.io/badge/license-MIT-green)
 ![Optimized](https://img.shields.io/badge/optimized-Core%202%20Duo+-brightgreen)
 
 
