@@ -43,3 +43,42 @@ COMANDOS DE ÁUDIO:
   pulseaudio --start       → Iniciar PulseAudio
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📦 SCRATCHPAD (MINIMIZAR JANELAS)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Super + Shift + Backspace  → Mover janela para scratchpad ("minimizar")
+Super + Backspace          → Mostrar/esconder janela do scratchpad
+
+COMO FUNCIONA:
+- Envie qualquer janela para o scratchpad com Super+Shift+Backspace
+- Chame de volta com Super+Backspace (aparece flutuante no centro)
+- Janela fica escondida mas não fecha
+- Pode ter várias janelas no scratchpad
+- Cada Super+Backspace alterna entre janelas do scratchpad
+
+EXEMPLOS:
+1. Abrir terminal → Super+Shift+Backspace (esconde)
+2. Fazer outras coisas
+3. Super+Backspace (terminal aparece de novo)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+RESUMO DE ATALHOS ATUALIZADOS:
+
+🔊 ÁUDIO:
+Super + ]              → Volume +
+Super + [              → Volume -
+Super + Shift + X      → Mute
+Super + Shift + A      → Mixer de Áudio
+
+📦 SCRATCHPAD:
+Super + Backspace      → Mostrar scratchpad
+Super + Shift + Backspace → Esconder no scratchpad
+
+🎬 MATRIX (sem mudanças):
+Super + M              → Matrix Rain
+Super + Shift + M      → htop
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━

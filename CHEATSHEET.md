@@ -290,3 +290,42 @@ CAN'T EXIT:
 ║  Welcome to the Matrix, Neo... Now you know how to use everything! 🟢    ║
 ║                                                                           ║
 ╚═══════════════════════════════════════════════════════════════════════════╝
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📦 SCRATCHPAD (MINIMIZE WINDOWS)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Super + Shift + Backspace  → Move window to scratchpad ("minimize")
+Super + Backspace          → Show/hide scratchpad window
+
+HOW IT WORKS:
+- Send any window to scratchpad with Super+Shift+Backspace
+- Call it back with Super+Backspace (appears floating in center)
+- Window stays hidden but doesn't close
+- Can have multiple windows in scratchpad
+- Each Super+Backspace cycles through scratchpad windows
+
+EXAMPLES:
+1. Open terminal → Super+Shift+Backspace (hides it)
+2. Do other work
+3. Super+Backspace (terminal appears again)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+UPDATED SHORTCUTS SUMMARY:
+
+🔊 AUDIO:
+Super + ]              → Volume +
+Super + [              → Volume -
+Super + Shift + X      → Mute
+Super + Shift + A      → Audio Mixer
+
+📦 SCRATCHPAD:
+Super + Backspace      → Show scratchpad
+Super + Shift + Backspace → Hide to scratchpad
+
+🎬 MATRIX (unchanged):
+Super + M              → Matrix Rain
+Super + Shift + M      → htop
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
