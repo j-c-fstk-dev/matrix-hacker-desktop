@@ -7,7 +7,8 @@
    ██║ ╚═╝ ██║██║  ██║   ██║   ██║  ██║██║██╔╝ ██╗
    ╚═╝     ╚═╝╚═╝  ╚═╝   ╚═╝   ╚═╝  ╚═╝╚═╝╚═╝  ╚═╝
 ```
-
+[![GitHub](https://img.shields.io/badge/GitHub-j--c--fstk--dev%2Fmatrix--hacker--desktop-green?logo=github)](https://github.com/j-c-fstk-dev/matrix-hacker-desktop)
+[![Stars](https://img.shields.io/github/stars/j-c-fstk-dev/matrix-hacker-desktop?style=social)](https://github.com/j-c-fstk-dev/matrix-hacker-desktop/stargazers)
 ![Platform](https://img.shields.io/badge/platform-Linux-blue)
 ![Shell](https://img.shields.io/badge/shell-bash-green)
 ![Python](https://img.shields.io/badge/python-3.x-blue)
